@@ -4,4 +4,5 @@ def join_nested_strings(src)
   row = 0
   while row < src.count do
     row += 1
+  end
 end
