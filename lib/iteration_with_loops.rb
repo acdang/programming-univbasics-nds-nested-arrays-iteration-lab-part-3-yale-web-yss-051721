@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while row < src.count do
     element = 0
     while element < src[row].count do
-      new_string << src[row][element] if src[row][element].is_a? String
+      new_string << src[row][element] if src[row][element].is_a?(String)
       element += 1
     end
     row += 1
